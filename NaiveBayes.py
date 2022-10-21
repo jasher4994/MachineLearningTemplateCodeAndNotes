@@ -26,7 +26,7 @@ import csv
 # =============================================================================
 # Data import
 # =============================================================================
-os.chdir(r"S:\Research & Analysis\4. BAU & Ad hoc Projects\Ad hoc\Current\AHR-0102 Analysis of AML documents\PDF Reader")
+
 df = pd.read_csv("TFIDF.csv") #TFIDF
 df2 = pd.read_csv("full_final_merged_firms.csv") #RAW
 
